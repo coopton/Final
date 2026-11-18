@@ -1,0 +1,15 @@
+.content {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 1em;
+}
+.content figure {
+  width: 250px;
+}
+.content img, .content video {
+width: 250px;
+}
+
+.content figcaption {
+  font-size: 100px;
+}
